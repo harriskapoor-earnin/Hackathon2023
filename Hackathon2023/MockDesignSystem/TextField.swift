@@ -17,7 +17,7 @@ extension MockDesignSystem {
             TextField("login/e-mailasdf", text: $props.placeholderText)
                 .padding()
                 .background(Color.secondary.opacity(0.3))
-                .cornerRadius(10)
+                .cornerRadius(5)
                 .padding(20)
         }
         
@@ -28,7 +28,7 @@ extension MockDesignSystem {
 }
 
 let mockProperties = MockDesignSystem.MockTextField.Properties(
-    placeholderText: "Username"
+    placeholderText: "Placeholder text"
 )
 
 

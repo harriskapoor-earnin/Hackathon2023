@@ -9,7 +9,7 @@ import SwiftUI
 
 extension MockDesignSystem {
     
-    struct MockTextField: View {
+    struct TextInputField: View {
                 
         @State var props: Properties
         
@@ -27,11 +27,11 @@ extension MockDesignSystem {
     }
 }
 
-let mockProperties = MockDesignSystem.MockTextField.Properties(
+let mockProperties = MockDesignSystem.TextInputField.Properties(
     placeholderText: "Placeholder text"
 )
 
 
 #Preview {
-    MockDesignSystem.MockTextField(props: mockProperties)
+    MockDesignSystem.TextInputField(props: mockProperties)
 }
